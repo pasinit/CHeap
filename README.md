@@ -1,7 +1,7 @@
 CHeap
 =====
 
-Simpleme Heap implementation in C
+Simple Heap implementation in C
 
 Provides the basic function of an heap (heapify extract-min add-node).
 Nodes of heap are designed to be of a new type struct Item* that contains an integer and a 
@@ -12,9 +12,9 @@ The heap is implemented as a vector where index start at 1. For each node i in t
 The compare function is customizable so you can define your own function to sort elements in the heap.
 
 The memory allocation is dynamic, an empty heap is created at the beginning and while you add nodes the memory 
-grow, the following equation have been used to allocate new memory : new_mem = (old_mem + old_mem/2) + 1.
+grows, the following equation has been used to allocate new memory : new_mem = (old_mem + old_mem/2) + 1.
 
-If you find any bug or you think something can be made better just let me know, i'm gonna be happy to improove my knowledge.
+If you find any bug or you think something can be made better just let me know, i'm gonna be happy to improve my knowledge.
 
 For any problem please contact me!!
 
